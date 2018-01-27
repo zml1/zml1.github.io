@@ -76,6 +76,7 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: git@github.com:zml1/zml1.github.io.git
-  type: git
-branch: master
+deploy: 
+    type: git
+    repository: git@github.com:zml1/zml1.github.io.git
+    branch: master
