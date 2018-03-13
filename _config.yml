@@ -71,7 +71,9 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-# RSS订阅
+# RSS订阅支持
+plugin:
+- hexo-generator-feed
 feed:
   type: atom
   path: atom.xml
@@ -86,6 +88,12 @@ search:
   field: post
   format: html
   limit: 10000
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
 
 ## Themes: https://hexo.io/themes/
 theme: next
