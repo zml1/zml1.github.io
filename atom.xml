@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zml1.github.io/"/>
-  <updated>2018-03-13T05:38:18.867Z</updated>
+  <updated>2018-03-20T10:03:09.638Z</updated>
   <id>https://zml1.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HBase1.2安装配置</title>
+    <link href="https://zml1.github.io/2018/03/20/HBase1.2.6%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+    <id>https://zml1.github.io/2018/03/20/HBase1.2.6安装配置/</id>
+    <published>2018-03-20T09:23:42.000Z</published>
+    <updated>2018-03-20T10:03:09.638Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h2&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="大数据" scheme="https://zml1.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    
+      <category term="HBase" scheme="https://zml1.github.io/tags/HBase/"/>
+    
+  </entry>
   
   <entry>
     <title>Centos7.4 安装MySQL 5.7.21 (通用二进制包)</title>
