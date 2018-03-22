@@ -347,6 +347,9 @@
       
         
           <h2 id="安装模式"><a href="#安装模式" class="headerlink" title="安装模式"></a>安装模式</h2><p>Hbase分为三种安装模式：单机模式，伪分布式模式，完全分布式模式</p>
+<ul>
+<li>单机模式：单机模式的安装非常简单，几乎不用对安装文件做什么修改就可以使用。单机模式下，HBase并不使用HDFS，因此将安装文件解压后就几乎可以直接运行。</li>
+<li>伪分布模式是一个运行在单台机器上的分布式模式。此模式下，HBase所有的守护进程将运行在同一个节点之上，而且需要依赖HDFS，因此在此之前必须保证HDFS已经成功运行。
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/03/20/HBase1.2.6安装配置/#more" rel="contents">

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zml1.github.io/"/>
-  <updated>2018-03-22T06:20:53.865Z</updated>
+  <updated>2018-03-22T06:21:42.631Z</updated>
   <id>https://zml1.github.io/</id>
   
   <author>
@@ -21,11 +21,14 @@
     <link href="https://zml1.github.io/2018/03/20/HBase1.2.6%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
     <id>https://zml1.github.io/2018/03/20/HBase1.2.6安装配置/</id>
     <published>2018-03-20T09:23:42.000Z</published>
-    <updated>2018-03-22T06:20:53.865Z</updated>
+    <updated>2018-03-22T06:21:42.631Z</updated>
     
     <summary type="html">
     
       &lt;h2 id=&quot;安装模式&quot;&gt;&lt;a href=&quot;#安装模式&quot; class=&quot;headerlink&quot; title=&quot;安装模式&quot;&gt;&lt;/a&gt;安装模式&lt;/h2&gt;&lt;p&gt;Hbase分为三种安装模式：单机模式，伪分布式模式，完全分布式模式&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;单机模式：单机模式的安装非常简单，几乎不用对安装文件做什么修改就可以使用。单机模式下，HBase并不使用HDFS，因此将安装文件解压后就几乎可以直接运行。&lt;/li&gt;
+&lt;li&gt;伪分布模式是一个运行在单台机器上的分布式模式。此模式下，HBase所有的守护进程将运行在同一个节点之上，而且需要依赖HDFS，因此在此之前必须保证HDFS已经成功运行。
     
     </summary>
     
