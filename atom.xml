@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zml1.github.io/"/>
-  <updated>2018-03-22T06:21:42.631Z</updated>
+  <updated>2018-06-19T08:26:43.312Z</updated>
   <id>https://zml1.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>https升级指南</title>
+    <link href="https://zml1.github.io/2018/06/19/https%E5%8D%87%E7%BA%A7%E6%8C%87%E5%8D%97/"/>
+    <id>https://zml1.github.io/2018/06/19/https升级指南/</id>
+    <published>2018-06-19T02:01:50.000Z</published>
+    <updated>2018-06-19T08:26:43.312Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;获取证书&quot;&gt;&lt;a href=&quot;#获取证书&quot; class=&quot;headerlink&quot; title=&quot;获取证书&quot;&gt;&lt;/a&gt;获取证书&lt;/h2&gt;&lt;p&gt;升级到https的第一步就是要先获取一张证书。&lt;br&gt;证书是一个二进制文件，里面包含经过认证的网站公钥和一些元数据，要从经销商购买。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;证书的概念：首先要有一个根证书，然后用根证书来签发服务器证书和客户证书。服务器证书和客户证书是平级关系。SSL必须安装 服务器证书来认证。 因此，在此环境中，至少必须有三个证书：根证书，服务器证书，客户端证书。 在生成证书之前，一般会有一个私钥，同时用私钥生成证书请求，再利用证书服务器的根证来签发证书。 SSL所使用的证书可以自己生成，也可以通过一个商业性CA（如Verisign 或 Thawte）签署证书。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;签发证书的问题：如果使用的是商业证书，具体的签署方法请查看相关销售商的说明；如果是知己签发的证书，可以使用openssl自带的CA.sh 脚本工具。&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="服务器" scheme="https://zml1.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+      <category term="HTTPS" scheme="https://zml1.github.io/tags/HTTPS/"/>
+    
+  </entry>
   
   <entry>
     <title>HBase1.2安装配置</title>
@@ -28,7 +51,7 @@
       &lt;h2 id=&quot;安装模式&quot;&gt;&lt;a href=&quot;#安装模式&quot; class=&quot;headerlink&quot; title=&quot;安装模式&quot;&gt;&lt;/a&gt;安装模式&lt;/h2&gt;&lt;p&gt;Hbase分为三种安装模式：单机模式，伪分布式模式，完全分布式模式&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;单机模式：单机模式的安装非常简单，几乎不用对安装文件做什么修改就可以使用。单机模式下，HBase并不使用HDFS，因此将安装文件解压后就几乎可以直接运行。&lt;/li&gt;
-&lt;li&gt;伪分布模式是一个运行在单台机器上的分布式模式。此模式下，HBase所有的守护进程将运行在同一个节点之上，而且需要依赖HDFS，因此在此之前必须保证HDFS已经成功运行。
+&lt;li&gt;伪分布模式是一个运行在单台机器上的分布式模式。此模式下，HBase所有的守护进程将运行在同一个节点之上，而且需要依赖HDFS，因此在此之前必须保证HDFS已经成功运行。&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -49,7 +72,7 @@
     <summary type="html">
     
       &lt;h2 id=&quot;下载安装包&quot;&gt;&lt;a href=&quot;#下载安装包&quot; class=&quot;headerlink&quot; title=&quot;下载安装包&quot;&gt;&lt;/a&gt;下载安装包&lt;/h2&gt;&lt;p&gt;MySQL 官方下载地址：&lt;a href=&quot;https://dev.mysql.com/downloads/mysql/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dev.mysql.com/downloads/mysql/&lt;/a&gt;&lt;br&gt;MySQL 5.7官方安装文档：&lt;a href=&quot;https://dev.mysql.com/doc/refman/5.7/en/binary-installation.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dev.mysql.com/doc/refman/5.7/en/binary-installation.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本文完全按照官方步骤配置安装&lt;br&gt;
+&lt;p&gt;本文完全按照官方步骤配置安装&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -65,11 +88,11 @@
     <link href="https://zml1.github.io/2018/01/30/Nginx%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85%E5%90%AF%E5%8A%A8%E5%8F%8A%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%A6%E8%A7%A3/"/>
     <id>https://zml1.github.io/2018/01/30/Nginx服务器安装启动及配置文件详解/</id>
     <published>2018-01-30T03:47:11.000Z</published>
-    <updated>2018-03-13T05:38:18.880Z</updated>
+    <updated>2018-06-15T03:03:23.233Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;选择稳定nginx版本&quot;&gt;&lt;a href=&quot;#选择稳定nginx版本&quot; class=&quot;headerlink&quot; title=&quot;选择稳定nginx版本&quot;&gt;&lt;/a&gt;选择稳定nginx版本&lt;/h2&gt;&lt;p&gt;centos的yum不提供nginx安装，通过配置官方yum源的方式获取到的也只是源码包。所以我们找到了Nginx官网看下官方提供的安装方式：Nginx源码包下载的官网地址（&lt;a href=&quot;http://nginx.org/en/download.html）&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://nginx.org/en/download.html）&lt;/a&gt;&lt;br&gt;从官网上提供三个类型的版本，分别是Mainline version、Stable version、Legacy versions&lt;br&gt;
+      &lt;h2 id=&quot;选择稳定nginx版本&quot;&gt;&lt;a href=&quot;#选择稳定nginx版本&quot; class=&quot;headerlink&quot; title=&quot;选择稳定nginx版本&quot;&gt;&lt;/a&gt;选择稳定nginx版本&lt;/h2&gt;&lt;p&gt;centos的yum不提供nginx安装，通过配置官方yum源的方式获取到的也只是源码包。所以我们找到了Nginx官网看下官方提供的安装方式：Nginx源码包下载的官网地址（&lt;a href=&quot;http://nginx.org/en/download.html）&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://nginx.org/en/download.html）&lt;/a&gt;&lt;br&gt;从官网上提供三个类型的版本，分别是Mainline version、Stable version、Legacy versions&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
