@@ -81,21 +81,21 @@
 
 
 
-<meta name="description" content="获取证书升级到https的第一步就是要先获取一张证书。证书是一个二进制文件，里面包含经过认证的网站公钥和一些元数据，要从经销商购买。  证书的概念：首先要有一个根证书，然后用根证书来签发服务器证书和客户证书。服务器证书和客户证书是平级关系。SSL必须安装 服务器证书来认证。 因此，在此环境中，至少必须有三个证书：根证书，服务器证书，客户端证书。 在生成证书之前，一般会有一个私钥，同时用私钥生成证书">
+<meta name="description" content="获取证书升级到https的第一步就是要先获取一张证书。证书是一个二进制文件，里面包含经过认证的网站公钥和一些元数据，要从经销商购买。 证书的概念 证书的概念：首先要有一个根证书，然后用根证书来签发服务器证书和客户证书。服务器证书和客户证书是平级关系。SSL必须安装 服务器证书来认证。 因此，在此环境中，至少必须有三个证书：根证书，服务器证书，客户端证书。 在生成证书之前，一般会有一个私钥，同时用私">
 <meta name="keywords" content="HTTPS">
 <meta property="og:type" content="article">
 <meta property="og:title" content="https升级指南">
 <meta property="og:url" content="https://zml1.github.io/2018/06/19/https升级指南/index.html">
 <meta property="og:site_name" content="Menglong&#39;s blog">
-<meta property="og:description" content="获取证书升级到https的第一步就是要先获取一张证书。证书是一个二进制文件，里面包含经过认证的网站公钥和一些元数据，要从经销商购买。  证书的概念：首先要有一个根证书，然后用根证书来签发服务器证书和客户证书。服务器证书和客户证书是平级关系。SSL必须安装 服务器证书来认证。 因此，在此环境中，至少必须有三个证书：根证书，服务器证书，客户端证书。 在生成证书之前，一般会有一个私钥，同时用私钥生成证书">
+<meta property="og:description" content="获取证书升级到https的第一步就是要先获取一张证书。证书是一个二进制文件，里面包含经过认证的网站公钥和一些元数据，要从经销商购买。 证书的概念 证书的概念：首先要有一个根证书，然后用根证书来签发服务器证书和客户证书。服务器证书和客户证书是平级关系。SSL必须安装 服务器证书来认证。 因此，在此环境中，至少必须有三个证书：根证书，服务器证书，客户端证书。 在生成证书之前，一般会有一个私钥，同时用私">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://zml1.github.io/2018/06/19/https升级指南/20180619-1.jpg">
-<meta property="og:image" content="https://zml1.github.io/2018/06/19/https升级指南/20180619-2.jpg">
-<meta property="og:updated_time" content="2018-06-19T08:51:54.993Z">
+<meta property="og:image" content="https://zml1.github.io/2018/06/19/https升级指南/域名认证类型.jpg">
+<meta property="og:image" content="https://zml1.github.io/2018/06/19/https升级指南/公司扩展认证类型.jpg">
+<meta property="og:updated_time" content="2018-06-19T09:44:01.713Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="https升级指南">
-<meta name="twitter:description" content="获取证书升级到https的第一步就是要先获取一张证书。证书是一个二进制文件，里面包含经过认证的网站公钥和一些元数据，要从经销商购买。  证书的概念：首先要有一个根证书，然后用根证书来签发服务器证书和客户证书。服务器证书和客户证书是平级关系。SSL必须安装 服务器证书来认证。 因此，在此环境中，至少必须有三个证书：根证书，服务器证书，客户端证书。 在生成证书之前，一般会有一个私钥，同时用私钥生成证书">
-<meta name="twitter:image" content="https://zml1.github.io/2018/06/19/https升级指南/20180619-1.jpg">
+<meta name="twitter:description" content="获取证书升级到https的第一步就是要先获取一张证书。证书是一个二进制文件，里面包含经过认证的网站公钥和一些元数据，要从经销商购买。 证书的概念 证书的概念：首先要有一个根证书，然后用根证书来签发服务器证书和客户证书。服务器证书和客户证书是平级关系。SSL必须安装 服务器证书来认证。 因此，在此环境中，至少必须有三个证书：根证书，服务器证书，客户端证书。 在生成证书之前，一般会有一个私钥，同时用私">
+<meta name="twitter:image" content="https://zml1.github.io/2018/06/19/https升级指南/域名认证类型.jpg">
 
 
 
@@ -263,7 +263,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Menglong">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -348,21 +348,55 @@
 
       
         <h2 id="获取证书"><a href="#获取证书" class="headerlink" title="获取证书"></a>获取证书</h2><p>升级到https的第一步就是要先获取一张证书。<br>证书是一个二进制文件，里面包含经过认证的网站公钥和一些元数据，要从经销商购买。</p>
-<ul>
+<h3 id="证书的概念"><a href="#证书的概念" class="headerlink" title="证书的概念"></a>证书的概念</h3><ul>
 <li>证书的概念：首先要有一个根证书，然后用根证书来签发服务器证书和客户证书。服务器证书和客户证书是平级关系。SSL必须安装 服务器证书来认证。 因此，在此环境中，至少必须有三个证书：根证书，服务器证书，客户端证书。 在生成证书之前，一般会有一个私钥，同时用私钥生成证书请求，再利用证书服务器的根证来签发证书。 SSL所使用的证书可以自己生成，也可以通过一个商业性CA（如Verisign 或 Thawte）签署证书。</li>
-<li><p>签发证书的问题：如果使用的是商业证书，具体的签署方法请查看相关销售商的说明；如果是知己签发的证书，可以使用openssl自带的CA.sh 脚本工具。</p>
-<a id="more"></a>
-<p>证书有很多类型，分为三种认证级别：</p>
+<li>签发证书的问题：如果使用的是商业证书，具体的签署方法请查看相关销售商的说明；如果是知己签发的证书，可以使用openssl自带的CA.sh 脚本工具。<a id="more"></a>
 </li>
-<li><p>域名认证（Domain Validation）：最低级别认证，可以确认申请人拥有这个域名。对于这种证书，浏览器会在地址栏显示一把锁。</p>
-</li>
+</ul>
+<h4 id="认证级别"><a href="#认证级别" class="headerlink" title="认证级别"></a>认证级别</h4><p>证书有很多类型，分为三种认证级别：</p>
+<ul>
+<li>域名认证（Domain Validation）：最低级别认证，可以确认申请人拥有这个域名。对于这种证书，浏览器会在地址栏显示一把锁。</li>
 <li>公司认证（Company Validation）：确认域名所有人是哪一家公司，证书里面会包含公司信息。</li>
 <li>扩展认证（Extended Validation）：最高级别的认证，浏览器地址栏会显示公司名。</li>
 </ul>
 <p>域名认证： </p>
-<p><img src="/2018/06/19/https升级指南/20180619-1.jpg" alt="Alt text"></p>
+<p><img src="/2018/06/19/https升级指南/域名认证类型.jpg" alt="Alt text"></p>
 <p>公司认证/扩展认证：</p>
-<p><img src="/2018/06/19/https升级指南/20180619-2.jpg" alt="Alt text"></p>
+<p><img src="/2018/06/19/https升级指南/公司扩展认证类型.jpg" alt="Alt text"></p>
+<h4 id="覆盖范围"><a href="#覆盖范围" class="headerlink" title="覆盖范围"></a>覆盖范围</h4><ul>
+<li>单域名证书：只能用于单一域名，google.com的证书不能用于www.google.com</li>
+<li>通配符证书：可以用于某个域名及其所有一级子域名，比如*.google.com的证书可以用于google.com，也可以用于www.google.com</li>
+<li>多域名证书：可以用于多个域名，比如google.com和github.com</li>
+</ul>
+<p>认证级别越高覆盖范围越广，价格越美丽。</p>
+<p>还有一个免费证书的选择。由 ISRG（Internet Security Research Group，互联网安全研究小组）提供服务，而 ISRG 是来自于美国加利福尼亚州的一个公益组织。<a href="https://letsencrypt.org/" target="_blank" rel="noopener">Let’s Encrypt</a> 得到了 Mozilla、Cisco、Akamai、Electronic Frontier Foundation 和 Chrome 等众多公司和机构的支持，发展十分迅猛。</p>
+<p>拿到证书以后，可以用 <a href="https://tools.keycdn.com/ssl" target="_blank" rel="noopener">SSL Certificate Check</a> 检查一下，信息是否正确。</p>
+<h2 id="安装证书"><a href="#安装证书" class="headerlink" title="安装证书"></a>安装证书</h2><p>根据上面的介绍，证书会有多个文件，可以统一放到<code>你的web服务器路径/cert/</code>(linux OS，windows看你自己心情了)下面，然后根据你web服务器的不同在下面的链接中选择适合你的配置：</p>
+<ul>
+<li><a href="https://mozilla.github.io/server-side-tls/ssl-config-generator/" target="_blank" rel="noopener">https://mozilla.github.io/server-side-tls/ssl-config-generator/</a> Mozilla的证书配置文件模板</li>
+<li><a href="https://github.com/SSLMate/tlsconfigguide/tree/master/templates" target="_blank" rel="noopener">https://github.com/SSLMate/tlsconfigguide/tree/master/templates</a> SSLMate的证书配置文件模板</li>
+</ul>
+<p>如果使用 Let’s Encrypt 证书，请使用自动安装工具 <a href="https://certbot.eff.org/" target="_blank" rel="noopener">Certbot</a><br>安装成功后，使用 <a href="https://www.ssllabs.com/ssltest/analyze.html" target="_blank" rel="noopener">SSL Labs Server Test</a> 检查一下证书是否生效。</p>
+<h3 id="Nginx的写法"><a href="#Nginx的写法" class="headerlink" title="Nginx的写法"></a>Nginx的写法</h3><p>在Nginx的安装目录下创建cert目录，并且将下载的全部文件拷贝到cert目录中。如果申请证书时是自己创建的CSR文件，请将对应的私钥文件放到cert目录下并且命名为214750710900222.key</p>
+<p>打开 Nginx 安装目录下 conf 目录中的 nginx.conf 文件，找到：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"># HTTPS server</span><br><span class="line"># #server &#123;</span><br><span class="line"># listen 443;</span><br><span class="line"># server_name localhost;</span><br><span class="line"># ssl on;</span><br><span class="line"># ssl_certificate cert.pem;</span><br><span class="line"># ssl_certificate_key cert.key;</span><br><span class="line"># ssl_session_timeout 5m;</span><br><span class="line"># ssl_protocols SSLv2 SSLv3 TLSv1;</span><br><span class="line"># ssl_ciphers ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP;</span><br><span class="line"># ssl_prefer_server_ciphers on;</span><br><span class="line"># location / &#123;</span><br><span class="line">#</span><br><span class="line">#</span><br><span class="line">#&#125;</span><br><span class="line">#&#125;</span><br></pre></td></tr></table></figure>
+<p>将其修改为 (以下属性中ssl开头的属性与证书配置有直接关系，其它属性请结合自己的实际情况复制或调整) :</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen 443;</span><br><span class="line">    server_name localhost;</span><br><span class="line">    ssl on;</span><br><span class="line">    root html;</span><br><span class="line">    index index.html index.htm;</span><br><span class="line">    ssl_certificate   cert/214750710900222.pem;</span><br><span class="line">    ssl_certificate_key  cert/214750710900222.key;</span><br><span class="line">    ssl_session_timeout 5m;</span><br><span class="line">    ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;</span><br><span class="line">    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">    ssl_prefer_server_ciphers on;</span><br><span class="line">    location / &#123;</span><br><span class="line">        root html;</span><br><span class="line">        index index.html index.htm;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>保存退出。</p>
+<p>重启 Nginx。</p>
+<blockquote>
+<p>nginx -s reload</p>
+</blockquote>
+<p>通过 https 方式访问您的站点，测试站点证书的安装配置。</p>
+<h3 id="Apache的写法"><a href="#Apache的写法" class="headerlink" title="Apache的写法"></a>Apache的写法</h3><p>在Apache的安装目录下创建cert目录，并且将下载的全部文件拷贝到cert目录中。如果申请证书时是自己创建的CSR文件，请将对应的私钥文件放到cert目录下并且命名为214750710900222.key；</p>
+<p>打开 apache 安装目录下 conf 目录中的 httpd.conf 文件，找到以下内容并去掉“#”：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#LoadModule ssl_module modules/mod_ssl.so (如果找不到请确认是否编译过 openssl 插件)</span><br><span class="line">#Include conf/extra/httpd-ssl.conf</span><br></pre></td></tr></table></figure>
+<p>打开 apache 安装目录下 conf/extra/httpd-ssl.conf 文件 (也可能是conf.d/ssl.conf，与操作系统及安装方式有关)， 在配置文件中查找以下配置语句(一定要写进</p>
+<p><virtualhost *:443=""></virtualhost>标签里面):</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># 添加 SSL 协议支持协议，去掉不安全的协议</span><br><span class="line">SSLProtocol all -SSLv2 -SSLv3</span><br><span class="line"># 修改加密套件如下</span><br><span class="line">SSLCipherSuite HIGH:!RC4:!MD5:!aNULL:!eNULL:!NULL:!DH:!EDH:!EXP:+MEDIUM</span><br><span class="line">SSLHonorCipherOrder on</span><br><span class="line"># 证书公钥配置</span><br><span class="line">SSLCertificateFile cert/public.pem</span><br><span class="line"># 证书私钥配置</span><br><span class="line">SSLCertificateKeyFile cert/214750710900222.key</span><br><span class="line"># 证书链配置，如果该属性开头有 &apos;#&apos;字符，请删除掉</span><br><span class="line">SSLCertificateChainFile cert/chain.pem</span><br></pre></td></tr></table></figure>
+<p>重启 Apache。</p>
+<p>通过 https 方式访问您的站点,测试站点证书的安装配置</p>
+<p>参考<br>1.<a href="http://www.ruanyifeng.com/blog/2016/08/migrate-from-http-to-https.html" target="_blank" rel="noopener">http://www.ruanyifeng.com/blog/2016/08/migrate-from-http-to-https.html</a><br>2.<a href="https://imququ.com/post/letsencrypt-certificate.html" target="_blank" rel="noopener">https://imququ.com/post/letsencrypt-certificate.html</a></p>
 
       
     </div>
@@ -467,6 +501,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="Menglong" />
+            
               <p class="site-author-name" itemprop="name">Menglong</p>
               <p class="site-description motion-element" itemprop="description">从事人类24年</p>
           </div>
@@ -550,7 +588,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#获取证书"><span class="nav-number">1.</span> <span class="nav-text">获取证书</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#获取证书"><span class="nav-number">1.</span> <span class="nav-text">获取证书</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#证书的概念"><span class="nav-number">1.1.</span> <span class="nav-text">证书的概念</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#认证级别"><span class="nav-number">1.1.1.</span> <span class="nav-text">认证级别</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#覆盖范围"><span class="nav-number">1.1.2.</span> <span class="nav-text">覆盖范围</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装证书"><span class="nav-number">2.</span> <span class="nav-text">安装证书</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Nginx的写法"><span class="nav-number">2.1.</span> <span class="nav-text">Nginx的写法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Apache的写法"><span class="nav-number">2.2.</span> <span class="nav-text">Apache的写法</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -602,7 +640,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共5.7k字</span>
+  <span class="post-count">博客全站共6.7k字</span>
 </div>
         
 
@@ -783,4 +821,4 @@
 </body>
 </html>
 <!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/love.js"></script>
+<!-- <script type="text/javascript" src="/js/src/love.js"></script> -->

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zml1.github.io/"/>
-  <updated>2018-06-19T08:51:54.993Z</updated>
+  <updated>2018-06-19T09:44:01.713Z</updated>
   <id>https://zml1.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://zml1.github.io/2018/06/19/https%E5%8D%87%E7%BA%A7%E6%8C%87%E5%8D%97/"/>
     <id>https://zml1.github.io/2018/06/19/https升级指南/</id>
     <published>2018-06-19T02:01:50.000Z</published>
-    <updated>2018-06-19T08:51:54.993Z</updated>
+    <updated>2018-06-19T09:44:01.713Z</updated>
     
     <summary type="html">
     
       &lt;h2 id=&quot;获取证书&quot;&gt;&lt;a href=&quot;#获取证书&quot; class=&quot;headerlink&quot; title=&quot;获取证书&quot;&gt;&lt;/a&gt;获取证书&lt;/h2&gt;&lt;p&gt;升级到https的第一步就是要先获取一张证书。&lt;br&gt;证书是一个二进制文件，里面包含经过认证的网站公钥和一些元数据，要从经销商购买。&lt;/p&gt;
-&lt;ul&gt;
+&lt;h3 id=&quot;证书的概念&quot;&gt;&lt;a href=&quot;#证书的概念&quot; class=&quot;headerlink&quot; title=&quot;证书的概念&quot;&gt;&lt;/a&gt;证书的概念&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;证书的概念：首先要有一个根证书，然后用根证书来签发服务器证书和客户证书。服务器证书和客户证书是平级关系。SSL必须安装 服务器证书来认证。 因此，在此环境中，至少必须有三个证书：根证书，服务器证书，客户端证书。 在生成证书之前，一般会有一个私钥，同时用私钥生成证书请求，再利用证书服务器的根证来签发证书。 SSL所使用的证书可以自己生成，也可以通过一个商业性CA（如Verisign 或 Thawte）签署证书。&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;签发证书的问题：如果使用的是商业证书，具体的签署方法请查看相关销售商的说明；如果是知己签发的证书，可以使用openssl自带的CA.sh 脚本工具。&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;签发证书的问题：如果使用的是商业证书，具体的签署方法请查看相关销售商的说明；如果是知己签发的证书，可以使用openssl自带的CA.sh 脚本工具。&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
