@@ -2,7 +2,7 @@
 title: Centos7.4 安装MySQL 5.7.21 (通用二进制包)
 date: 2018-02-01 15:41:00
 categories: 
-- 服务器运维
+- 服务器
 tags: 
 - mysql
 ---
@@ -70,8 +70,8 @@ shell> chmod 750 /opt/mysql-5.7.21/{data,log,etc,run}
 在/etc/下创建my.cnf文件，加入如下参数，其他参数根据需要配置（以下配置按默认配置设置）
 
 ```
-shell> touch /etc/my.cnf
-shell> chown mysql:mysql /etc/my.cnf
+shell> touch /etc/my.cnf   
+shell> chown mysql:mysql /etc/my.cnf     
 ```
 
 ```

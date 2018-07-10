@@ -2,7 +2,7 @@
 title: nginx服务器安装启动及配置文件详解
 date: 2018-01-30 11:47:11
 categories: 
-- 服务器运维
+- 服务器
 tags: 
 - nginx
 ---
@@ -194,7 +194,6 @@ shell> pkill -9 nginx
 创建一个名称为nginx的脚本，添加如下内容，更改里面的nginx路径和配置文件路径，给执行权限。
 
 如果想添加脚本用service启动，必须要脚本里面包含这2行
-
 ```
 # chkconfig: - 85 15
 # description: nginx is a World Wide Web server. It is used to serve
