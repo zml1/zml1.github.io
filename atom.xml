@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zml1.github.io/"/>
-  <updated>2018-07-09T03:23:24.509Z</updated>
+  <updated>2018-07-10T03:28:59.775Z</updated>
   <id>https://zml1.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java.lang.IllegalArgumentException:Can not set XXX to com.sun.proxy.$Proxy28</title>
+    <link href="https://zml1.github.io/2018/07/10/Can-not-set-XXX-to-com-sun-proxy-Proxy28/"/>
+    <id>https://zml1.github.io/2018/07/10/Can-not-set-XXX-to-com-sun-proxy-Proxy28/</id>
+    <published>2018-07-10T01:09:33.000Z</published>
+    <updated>2018-07-10T03:28:59.775Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近Spring项目启动报错java.lang.IllegalArgumentException: Can not set XXX to com.sun.proxy.$Proxy28经过检查发现是使用 @Autowired 时，写在了接口的实现类上面，由于spring
+        
+      
+    
+    </summary>
+    
+      <category term="Spring" scheme="https://zml1.github.io/categories/Spring/"/>
+    
+    
+      <category term="Spring" scheme="https://zml1.github.io/tags/Spring/"/>
+    
+      <category term="proxy" scheme="https://zml1.github.io/tags/proxy/"/>
+    
+      <category term="IllegalArgumentException" scheme="https://zml1.github.io/tags/IllegalArgumentException/"/>
+    
+  </entry>
   
   <entry>
     <title>Shadowsocks安卓客户端（下载+配置）</title>
