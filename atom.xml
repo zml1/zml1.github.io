@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zml1.github.io/"/>
-  <updated>2018-07-13T03:44:38.238Z</updated>
+  <updated>2018-07-13T06:10:47.634Z</updated>
   <id>https://zml1.github.io/</id>
   
   <author>
@@ -21,17 +21,11 @@
     <link href="https://zml1.github.io/2018/07/10/Can-not-set-XXX-to-com-sun-proxy-Proxy28/"/>
     <id>https://zml1.github.io/2018/07/10/Can-not-set-XXX-to-com-sun-proxy-Proxy28/</id>
     <published>2018-07-10T01:09:33.000Z</published>
-    <updated>2018-07-13T03:44:38.238Z</updated>
+    <updated>2018-07-13T06:10:47.634Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;最近Spring项目启动报错java.lang.IllegalArgumentException: Can not set XXX to com.sun.proxy.$Proxy28经过检查发现是使用 @Autowired 时，写在了接口的实现类上面，由于spring
-        
-      
+      &lt;p&gt;最近Spring项目启动报错java.lang.IllegalArgumentException: Can not set XXX to com.sun.proxy.$Proxy28经过检查发现是使用 @Autowired 时，写在了接口的实现类上面，由于spring AOP动态代理是通过接口，如果不做配置的话一般情况使用的是Java原生的动态代理，所以注入地方都要通过接口进行注入，如果通过实现类进行注入就会报这个错&lt;br&gt;代码如下：&lt;br&gt;
     
     </summary>
     
