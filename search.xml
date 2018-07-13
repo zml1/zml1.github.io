@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Win7下删除多余“本地连接15”]]></title>
-    <url>%2F2018%2F07%2F13%2FWin7%E4%B8%8B%E5%88%A0%E9%99%A4%E5%A4%9A%E4%BD%99%E2%80%9C%E6%9C%AC%E5%9C%B0%E8%BF%9E%E6%8E%A55%E2%80%9D%2F</url>
-    <content type="text"><![CDATA[最近经常使用手机USB共享网络，发现每次连接系统右下角的“网络”编号就会加1，如果连接过多网络的话，这个编号会一直递增下去，如下图： 今天偶然发现这些网络号是可以删除的，进行如下操作： 依次进入 控制面板 -&gt; 网络和Internet -&gt; 网络和共享中心 进入网络和共享中心后，点击上图中红色框图标弹出下图 设置网络属性 将“网络名” 一栏的 “网络 15” 后面的15和空格删掉，点击 合并或删除网络设置 这里可以看到你曾经连接过的网络，注意“状态”一栏，只要是未使用的都可以选中删除，使用中的就是你当前正在使用的网络，如下图： 删除之后再看 网络和共享中心 的网络连接，就没有那个序号了 但是后续如果再次连接其他设备的话，网络序号还是会递增，但至少不会无限增长了 ^_^]]></content>
-      <categories>
-        <category>系统</category>
-      </categories>
-      <tags>
-        <tag>win7</tag>
-        <tag>网络</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[java.lang.IllegalArgumentException:Can not set XXX to com.sun.proxy.$Proxy28]]></title>
     <url>%2F2018%2F07%2F10%2FCan-not-set-XXX-to-com-sun-proxy-Proxy28%2F</url>
-    <content type="text"><![CDATA[最近Spring项目启动报错java.lang.IllegalArgumentException: Can not set XXX to com.sun.proxy.$Proxy28经过检查发现是使用 @Autowired 时，写在了接口的实现类上面，由于spring AOP动态代理是通过接口，如果不做配置的话一般情况使用的是Java原生的动态代理，所以注入地方都要通过接口进行注入，如果通过实现类进行注入就会报这个错代码如下：123456public class MonitorService &#123; @Autowired private JobFlowService jobFlowService;&#125; 1234@Service(&quot;jobFlowService&quot;)public class JobFlowService implements IScheduleExecutor &#123; &#125; 有两种解决方案 1.在你的项目spring配置文件中添加一行配置: 1&lt;aop:aspectj-autoproxy proxy-target-class=&quot;true&quot;/&gt; 强制让Spring使用cglib生成代理类，就可以通过接口的实现类上@Service等类似注解进行注入 2.更改代码，写成用接口注入如下： 123456public class MonitorService &#123; @Autowired private JobFlowServiceImpl jobFlowService;&#125;]]></content>
+    <content type="text"><![CDATA[最近Spring项目启动报错java.lang.IllegalArgumentException: Can not set XXX to com.sun.proxy.$Proxy28经过检查发现是使用 @Autowired 时，写在了接口的实现类上面，由于spring AOP动态代理是通过接口，如果不做配置的话一般情况使用的是Java原生的动态代理，所以注入地方都要通过接口进行注入，如果通过实现类进行注入就会报这个错代码如下： 123456public class MonitorService &#123; @Autowired private JobFlowService jobFlowService;&#125; 1234@Service(&quot;jobFlowService&quot;)public class JobFlowService implements IScheduleExecutor &#123; &#125; 有两种解决方案 1.在你的项目spring配置文件中添加一行配置: 1&lt;aop:aspectj-autoproxy proxy-target-class=&quot;true&quot;/&gt; 强制让Spring使用cglib生成代理类，就可以通过接口的实现类上@Service等类似注解进行注入 2.更改代码，写成用接口注入如下： 123456public class MonitorService &#123; @Autowired private JobFlowServiceImpl jobFlowService;&#125;]]></content>
       <categories>
         <category>Spring</category>
       </categories>
