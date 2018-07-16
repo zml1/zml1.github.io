@@ -10,6 +10,7 @@ tags:
 ---
 最近Spring项目启动报错java.lang.IllegalArgumentException: Can not set XXX to com.sun.proxy.$Proxy28经过检查发现是使用 @Autowired 时，写在了接口的实现类上面，由于spring AOP动态代理是通过接口，如果不做配置的话一般情况使用的是Java原生的动态代理，所以注入地方都要通过接口进行注入，如果通过实现类进行注入就会报这个错
 代码如下：
+<!--more-->
 
 ```
 public class MonitorService {
