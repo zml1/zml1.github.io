@@ -85,7 +85,7 @@ feed:
 # 搜索
 search:
   path: search.xml
-  field: post
+  field: all
   format: html
   limit: 10000
 # Post wordcount display settings

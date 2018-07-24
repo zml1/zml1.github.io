@@ -97,12 +97,12 @@ shell> vim $HBASE_HOME/conf/hbase-env.sh
 ```
 
 ```
-\# JDK安装目录  
+# JDK安装目录  
 export JAVA_HOME=/opt/jdk1.7.0_80  
 export JAVA_CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar  
-\# hadoop配置文件的位置  
+# hadoop配置文件的位置  
 export HBASE_CLASSPATH=/opt/hadoop-2.6.4/etc/hadoop  
-\# 如果使用独立安装的zookeeper这个地方就是false  
+# 如果使用独立安装的zookeeper这个地方就是false  
 export HBASE_MANAGES_ZK=false  
 ```
 
