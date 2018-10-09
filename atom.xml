@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zml1.github.io/"/>
-  <updated>2018-09-11T01:20:08.866Z</updated>
+  <updated>2018-10-09T09:36:18.273Z</updated>
   <id>https://zml1.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>三星手机刷Recovery</title>
+    <link href="https://zml1.github.io/2018/10/09/%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA%E5%88%B7Recovery/"/>
+    <id>https://zml1.github.io/2018/10/09/三星手机刷Recovery/</id>
+    <published>2018-10-09T07:47:09.000Z</published>
+    <updated>2018-10-09T09:36:18.273Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h4&gt;&lt;p&gt;因为三星手机自带的Recovery功能过于鸡肋，想要对手机进行刷机就必须刷入第三方Recovery，只有第三方Recovery才能为各种卡刷ROM提供便利条件&lt;br&gt;
+    
+    </summary>
+    
+      <category term="手机" scheme="https://zml1.github.io/categories/%E6%89%8B%E6%9C%BA/"/>
+    
+    
+      <category term="Recovery" scheme="https://zml1.github.io/tags/Recovery/"/>
+    
+  </entry>
   
   <entry>
     <title>Spring自定义标签-xsd</title>
