@@ -27,7 +27,7 @@
     
       &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;为了得到更加[多元化]的搜索结果，虽然Google在天朝访问起来并不是那么容易，但是其功能之强大让很多人搭梯子也要把它作为常用搜索引擎。&lt;/p&gt;
 &lt;p&gt;平日中我们使用最简单的关键词搜索之外，它还提供了更加精细化的搜索功能，如果之前你只是在搜索框中简单的输入关键词，甚至直接搜索[地铁X号线末班车是什么时候]，可以尝试下下面这些小技巧，让你比别人容易或得到想要的答案和精确的搜索结果。&lt;/p&gt;
-&lt;p&gt;另外牢记以下三点&lt;br&gt;
+&lt;p&gt;另外牢记以下三点&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -47,7 +47,7 @@
     
     <summary type="html">
     
-      &lt;h4 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h4&gt;&lt;p&gt;因为三星手机自带的Recovery功能过于鸡肋，想要对手机进行刷机就必须刷入第三方Recovery，只有第三方Recovery才能为各种卡刷ROM提供便利条件&lt;br&gt;
+      &lt;h4 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h4&gt;&lt;p&gt;因为三星手机自带的Recovery功能过于鸡肋，想要对手机进行刷机就必须刷入第三方Recovery，只有第三方Recovery才能为各种卡刷ROM提供便利条件&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -70,7 +70,7 @@
       &lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;从Spring2.0开始，Spring提供了XML Schema可扩展机制，用户可以自定义XML Schema文件，并自定义XML Bean解析器，并集成到Spring Ioc 容器中&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;在我们日常配置Spring的xml文件过程中，使用的标签都是spring定义好的，例如&lt;bean&gt;这种，我们也可以遵从spring对于XML Schema Definition(XSD)定义的文档，实现自定义XSD&lt;br&gt;
+&lt;p&gt;在我们日常配置Spring的xml文件过程中，使用的标签都是spring定义好的，例如&lt;bean&gt;这种，我们也可以遵从spring对于XML Schema Definition(XSD)定义的文档，实现自定义XSD&lt;br&gt;&lt;/bean&gt;&lt;/p&gt;
     
     </summary>
     
@@ -92,7 +92,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;最近Spring项目启动报错java.lang.IllegalArgumentException: Can not set XXX to com.sun.proxy.$Proxy28经过检查发现是使用 @Autowired 时，写在了接口的实现类上面，由于spring AOP动态代理是通过接口，如果不做配置的话一般情况使用的是Java原生的动态代理，所以注入地方都要通过接口进行注入，如果通过实现类进行注入就会报这个错&lt;br&gt;代码如下：&lt;br&gt;
+      &lt;p&gt;最近Spring项目启动报错java.lang.IllegalArgumentException: Can not set XXX to com.sun.proxy.$Proxy28经过检查发现是使用 @Autowired 时，写在了接口的实现类上面，由于spring AOP动态代理是通过接口，如果不做配置的话一般情况使用的是Java原生的动态代理，所以注入地方都要通过接口进行注入，如果通过实现类进行注入就会报这个错&lt;br&gt;代码如下：&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -118,7 +118,7 @@
     
       &lt;h2 id=&quot;软件准备&quot;&gt;&lt;a href=&quot;#软件准备&quot; class=&quot;headerlink&quot; title=&quot;软件准备&quot;&gt;&lt;/a&gt;软件准备&lt;/h2&gt;&lt;p&gt;首先，点击下方按钮下载安卓版的客户端 Shadowsocks 。&lt;/p&gt;
 &lt;p&gt;如果您是用微信打开的话，先点击手机右上角的三个点，然后选择手机自带的浏览器打开，这样才能下载成功。&lt;/p&gt;
-&lt;p&gt;官方提供了几个不同版本，根据你手机的cpu选择合适的apk安装包（如果你也不知道，那就选择结尾是universal的就好啦）&lt;br&gt;
+&lt;p&gt;官方提供了几个不同版本，根据你手机的cpu选择合适的apk安装包（如果你也不知道，那就选择结尾是universal的就好啦）&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -141,7 +141,7 @@
       &lt;h2 id=&quot;获取证书&quot;&gt;&lt;a href=&quot;#获取证书&quot; class=&quot;headerlink&quot; title=&quot;获取证书&quot;&gt;&lt;/a&gt;获取证书&lt;/h2&gt;&lt;p&gt;升级到https的第一步就是要先获取一张证书。&lt;br&gt;证书是一个二进制文件，里面包含经过认证的网站公钥和一些元数据，要从经销商购买。&lt;/p&gt;
 &lt;h3 id=&quot;证书的概念&quot;&gt;&lt;a href=&quot;#证书的概念&quot; class=&quot;headerlink&quot; title=&quot;证书的概念&quot;&gt;&lt;/a&gt;证书的概念&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;证书的概念：首先要有一个根证书，然后用根证书来签发服务器证书和客户证书。服务器证书和客户证书是平级关系。SSL必须安装 服务器证书来认证。 因此，在此环境中，至少必须有三个证书：根证书，服务器证书，客户端证书。 在生成证书之前，一般会有一个私钥，同时用私钥生成证书请求，再利用证书服务器的根证来签发证书。 SSL所使用的证书可以自己生成，也可以通过一个商业性CA（如Verisign 或 Thawte）签署证书。&lt;/li&gt;
-&lt;li&gt;签发证书的问题：如果使用的是商业证书，具体的签署方法请查看相关销售商的说明；如果是知己签发的证书，可以使用openssl自带的CA.sh 脚本工具。
+&lt;li&gt;签发证书的问题：如果使用的是商业证书，具体的签署方法请查看相关销售商的说明；如果是知己签发的证书，可以使用openssl自带的CA.sh 脚本工具。&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -164,7 +164,7 @@
       &lt;h2 id=&quot;安装模式&quot;&gt;&lt;a href=&quot;#安装模式&quot; class=&quot;headerlink&quot; title=&quot;安装模式&quot;&gt;&lt;/a&gt;安装模式&lt;/h2&gt;&lt;p&gt;Hbase分为三种安装模式：单机模式，伪分布式模式，完全分布式模式&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;单机模式：单机模式的安装非常简单，几乎不用对安装文件做什么修改就可以使用。单机模式下，HBase并不使用HDFS，因此将安装文件解压后就几乎可以直接运行。&lt;/li&gt;
-&lt;li&gt;伪分布模式是一个运行在单台机器上的分布式模式。此模式下，HBase所有的守护进程将运行在同一个节点之上，而且需要依赖HDFS，因此在此之前必须保证HDFS已经成功运行。
+&lt;li&gt;伪分布模式是一个运行在单台机器上的分布式模式。此模式下，HBase所有的守护进程将运行在同一个节点之上，而且需要依赖HDFS，因此在此之前必须保证HDFS已经成功运行。&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -185,7 +185,7 @@
     <summary type="html">
     
       &lt;h2 id=&quot;下载安装包&quot;&gt;&lt;a href=&quot;#下载安装包&quot; class=&quot;headerlink&quot; title=&quot;下载安装包&quot;&gt;&lt;/a&gt;下载安装包&lt;/h2&gt;&lt;p&gt;MySQL 官方下载地址：&lt;a href=&quot;https://dev.mysql.com/downloads/mysql/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dev.mysql.com/downloads/mysql/&lt;/a&gt;&lt;br&gt;MySQL 5.7官方安装文档：&lt;a href=&quot;https://dev.mysql.com/doc/refman/5.7/en/binary-installation.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dev.mysql.com/doc/refman/5.7/en/binary-installation.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本文完全按照官方步骤配置安装&lt;br&gt;
+&lt;p&gt;本文完全按照官方步骤配置安装&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -205,7 +205,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;选择稳定nginx版本&quot;&gt;&lt;a href=&quot;#选择稳定nginx版本&quot; class=&quot;headerlink&quot; title=&quot;选择稳定nginx版本&quot;&gt;&lt;/a&gt;选择稳定nginx版本&lt;/h2&gt;&lt;p&gt;centos的yum不提供nginx安装，通过配置官方yum源的方式获取到的也只是源码包。所以我们找到了Nginx官网看下官方提供的安装方式：Nginx源码包下载的官网地址（&lt;a href=&quot;http://nginx.org/en/download.html）&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://nginx.org/en/download.html）&lt;/a&gt;&lt;br&gt;从官网上提供三个类型的版本，分别是Mainline version、Stable version、Legacy versions&lt;br&gt;
+      &lt;h2 id=&quot;选择稳定nginx版本&quot;&gt;&lt;a href=&quot;#选择稳定nginx版本&quot; class=&quot;headerlink&quot; title=&quot;选择稳定nginx版本&quot;&gt;&lt;/a&gt;选择稳定nginx版本&lt;/h2&gt;&lt;p&gt;centos的yum不提供nginx安装，通过配置官方yum源的方式获取到的也只是源码包。所以我们找到了Nginx官网看下官方提供的安装方式：Nginx源码包下载的官网地址（&lt;a href=&quot;http://nginx.org/en/download.html）&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://nginx.org/en/download.html）&lt;/a&gt;&lt;br&gt;从官网上提供三个类型的版本，分别是Mainline version、Stable version、Legacy versions&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
